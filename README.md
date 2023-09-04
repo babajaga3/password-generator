@@ -1,4 +1,8 @@
-# Getting Started with Create React App
+# Archived
+This project has been archived due to better ways of making it
+
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
