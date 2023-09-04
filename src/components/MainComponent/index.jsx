@@ -24,7 +24,7 @@ export function MainComponent() {
   const [numCheck, setNumCheck] = useBoolean(true);
   const [capCheck, setCapCheck] = useBoolean(true);
   const [symCheck, setSymCheck] = useBoolean(false);
-  const [simCharCheck, setSimChar] = useBoolean(false);
+  const [simCharCheck, _setSimChar] = useBoolean(false);
   const [showTooltip, setShowTooltip] = useBoolean(false);
   const [length, setLength] = React.useState(10);
   
