@@ -4,7 +4,6 @@ import { Box, Flex, Button, Text, useClipboard } from '@chakra-ui/react';
 export function ResultComponent({password}) {
 
   const { hasCopied, onCopy } = useClipboard(password);
-  console.log(password)
 
   return (
     <Flex fontFamily={"mono"} className='space-x-4' mt={"-10"}>
