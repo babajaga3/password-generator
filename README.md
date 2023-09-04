@@ -68,3 +68,21 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+## Contribution guide
+Use commit names with the following prefixes to indicate their purpose
+
+| Emoji                    | Prefix                     | Description                                                |
+|--------------------------|----------------------------|------------------------------------------------------------|
+| :zap: :zap:              | `:zap: :zap:`              | for implementing breaking functionality (semver major)     |
+| :zap:                    | `:zap:`                    | for implementing non-breaking functionality (semver minor) |
+| :hammer:                 | `:hammer:`                 | for bug fixes and non-breaking improvements (semver patch) |
+| :wrench:                 | `:wrench:`                 | for configurations                                         |
+| :vertical_traffic_light: | `:vertical_traffic_light:` | for tests                                                  |
+| :memo:                   | `:memo:`                   | for documentations                                         |
+| :mag:                    | `:mag:`                    | for lint fixes                                             |
+| :recycle:                | `:recycle:`                | for non-breaking refactoring                               |
+| :paperclip:              | `:paperclip:`              | for dependencies                                           |
+| :octocat:                | `:octocat:`                | for workflows                                              |
+| :construction:           | `:construction:`           | for experimental or temporary changes                      |
